@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
 	while (getline(infile, s)){
 		system(s.c_str());
 	}
-
+	infile.close();
 	system("pause");
 	return 0;
 }
